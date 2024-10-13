@@ -12,14 +12,14 @@ end
 post '/email' do
    
 	my_mail = 'ivan_smeh2@mail.ru'
-	send_to = params[:email]
+	send_to = 'kosh21@rambler.ru'
 	password = 'fyDP9KA14eLvu8gdJRNJ'
 
 	
 
 	Pony.mail({
   :subject => params[:subject],
-  :body => params[:message],
+  :body => params[:email] + ' ' + params[:message],
   :to => send_to,
   :from => my_mail,
   :via => :smtp,
