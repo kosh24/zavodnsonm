@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 #require 'sendgrid-ruby'
-require 'sinatra/reloader'
+#require 'sinatra/reloader'
 #include SendGrid
  require 'pony'
 
