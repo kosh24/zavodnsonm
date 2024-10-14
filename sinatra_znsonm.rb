@@ -30,7 +30,7 @@ post '/email' do
     :user_name => my_mail,
     :password => password,
     :authentication => :plain }})
-	erb :IvyWire
+    erb :IvyWire
 end
 
 
